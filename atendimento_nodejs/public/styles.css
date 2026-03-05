@@ -1,0 +1,121 @@
+body{
+background:#121212;
+color:#e6e6e6;
+font-family:system-ui,-apple-system,Segoe UI,Roboto;
+}
+
+h1{
+font-weight:600;
+margin-bottom:25px;
+}
+
+.card{
+background:#1e1e1e;
+border:none;
+border-radius:12px;
+box-shadow:0 8px 20px rgba(0,0,0,0.5);
+}
+
+.card h5{
+color:#f1f1f1;
+font-weight:600;
+}
+
+.table{
+color:#e6e6e6 !important;
+background:#1e1e1e;
+margin-bottom:0;
+}
+
+.table thead{
+background:#262626;
+color:#ffffff;
+}
+
+.table th{
+background:#262626 !important;
+color:#ffffff;
+border-color:#333;
+}
+
+.table td{
+background:#1e1e1e !important;
+border-color:#333;
+color: #ffffff !important;
+}
+
+.table tbody{
+background:#1e1e1e;
+}
+
+.table tbody tr{
+background:#1e1e1e;
+border-color:#333;
+transition:0.2s;
+}
+
+.table tbody tr:hover{
+background:#2b2b2b;
+}
+
+.table tbody tr:hover td{
+background:#2b2b2b !important;
+}
+
+.form-control{
+background:#1e1e1e;
+border:1px solid #333;
+color:#e6e6e6;
+}
+
+.form-control::placeholder{
+color:#777;
+}
+
+.form-control:focus{
+background:#1e1e1e;
+border-color:#555;
+color:#ffffff;
+box-shadow:none;
+}
+
+.btn-primary{
+background:#4c7cff;
+border:none;
+font-weight:500;
+}
+
+.btn-primary:hover{
+background:#3a63d6;
+}
+
+.btn-danger{
+background:#e55353;
+border:none;
+}
+
+.header-bar{
+background:linear-gradient(90deg,#1e1e1e,#2a2a2a);
+padding:15px 25px;
+border-radius:12px;
+margin-bottom:30px;
+box-shadow:0 6px 15px rgba(0,0,0,0.4);
+}
+
+@keyframes aparecer{
+
+from{
+opacity:0;
+transform:translateY(10px);
+}
+
+to{
+opacity:1;
+transform:translateY(0);
+}
+
+}
+
+.nova-linha{
+animation:aparecer 0.35s ease;
+}
